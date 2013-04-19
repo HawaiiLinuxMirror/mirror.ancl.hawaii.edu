@@ -6,52 +6,74 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- Bootstrap -->
    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+   <link href="css/bootstrap-responsive.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="ancl.css">
+
 </head>
 
 <body>
+  <!-- Find specific jquery version, maybe not use jquery at all -->
+  <!--
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  -->
 <a href="https://github.com/jyap808/mirror.ancl.hawaii.edu_website"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-<div class="container">
-  <h1>Advanced Network Computing Laboratory Mirror</h1>
+
+<div class="container-fluid">
+<div class="row-fluid">
+  <!--
+  <div class="span3">
+    <div class="well affix">
+      <ul>
+        <li>one</li>
+        <li>two</li>
+      </ul>
+    </div>
+  </div>
+  -->
+  <div class="span3">
+    <div class="well affix ancl-sidenav">
+      <ul class="nav nav-list ancl-sidenav">
+        <li><a href="#archlinux"><i class="icon-chevron-right"></i>Arch Linux</a></li>
+        <li><a href="#centos"><i class="icon-chevron-right"></i>CentOS</a></li>
+        <li><a href="#debian"><i class="icon-chevron-right"></i>Debian</a></li>
+        <li><a href="#epel"><i class="icon-chevron-right"></i>EPEL</a></li>
+        <li><a href="#fedora"><i class="icon-chevron-right"></i>Fedora</a></li>
+        <li><a href="#knoppix"><i class="icon-chevron-right"></i>Knoppix</a></li>
+        <li><a href="#scientific"><i class="icon-chevron-right"></i>Scientific</a></li>
+        <li><a href="#perfSONAR"><i class="icon-chevron-right"></i>perfSONAR</a></li>
+        <li><a href="#ubuntu"><i class="icon-chevron-right"></i>Ubuntu</a></li>
+        <li class="divider"></li>
+        <!--
+      </ul>
+      <ul class="nav nav-list ancl-sidenav">
+        -->
+      <li><a href="#CPAN"><i class="icon-chevron-right"></i>CPAN</a></li>
+      <li><a href="#FreeBSD"><i class="icon-chevron-right"></i>FreeBSD</a></li>
+      <li><a href="#NetBSD"><i class="icon-chevron-right"></i>NetBSD</a></li>
+      <li><a href="#libreoffice"><i class="icon-chevron-right"></i>LibreOffice</a></li>
+      <li><a href="#OpenBSD"><i class="icon-chevron-right"></i>OpenBSD</a></li>
+      <li><a href="#pfSense"><i class="icon-chevron-right"></i>pfSense</a></li>
+      </ul>
+
+      <br />
+      Thank you to the following for hardware donations:
+      <ul>
+      <li>Netgear for the drive array</li>
+      <li>Lantronix for the IP KVM</li>
+      <li>ANCL for the disk drives</li>
+      <li>SOEST for rack space</li>
+      </ul>
+
+    </div>
+  </div>
+  <div class="span9">
+
+<h1>Advanced Network Computing Laboratory Mirror</h1>
 <p class="lead">
 The goal of the Advanced Network Computing Laboratory mirror is to be one of the largest mirrors in the world with very fast download pipes
 for people in Hawaii. This mirror (as of 2013) has the largest total hard drive space of any mirror in the world.
 </p>
-
-<h2>Donations</h2>
-
-Thank you to the following for hardware donations.
-
-<ul>
-<li>Netgear for the drive array</li>
-<li>Lantronix for the IP KVM</li>
-<li>ANCL for the disk drives</li>
-<li>SOEST for rack space</li>
-</ul>
-
-<h2>Mirror contents</h2>
-
-<h3><img src="img/Tux.jpg" height="40" width="40"> Linux</h3>
-<ul>
-<li><a href="#archlinux">Arch Linux</a></li>
-<li><a href="#centos">CentOS</a></li>
-<li><a href="#debian">Debian</a></li>
-<li><a href="#epel">EPEL</a></li>
-<li><a href="#fedora">Fedora</a></li>
-<li><a href="#knoppix">Knoppix</a></li>
-<li><a href="#scientific">Scientific</a></li>
-<li><a href="#perfSONAR">perfSONAR</a></li>
-<li><a href="#ubuntu">Ubuntu</a></li>
-</ul>
-
-<h3>Other</h3>
-<ul>
-<li><a href="#CPAN">CPAN</a></li>
-<li><a href="#FreeBSD">FreeBSD</a></li>
-<li><a href="#NetBSD">NetBSD</a></li>
-<li><a href="#libreoffice">LibreOffice</a></li>
-<li><a href="#OpenBSD">OpenBSD</a></li>
-<li><a href="#pfSense">pfSense</a></li>
-</ul>
 
 <hr>
 <h3 id="archlinux"><img src="img/arch-linux-logo.png" height="40" width="40"> Arch Linux</h3>
@@ -183,7 +205,11 @@ Thank you to the following for hardware donations.
 <h3 id="pfSense"><img src="img/pfsense-logo.png" height="40" width="40"> pfSense</h3>
 <a href="./pub/pfSense/downloads/">pub/pfSense/downloads</a> - Raw directory contents
 
-<br><br>
-</body>
+<br />
+<br />
+<br />
+<br />
 </div>
+</div>
+</body>
 </html>
