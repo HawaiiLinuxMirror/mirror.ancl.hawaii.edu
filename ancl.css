@@ -1,0 +1,38 @@
+.ancl-sidenav {
+    max-width: 180px;
+}
+/* Chevrons */
+.ancl-sidenav .icon-chevron-right {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}
+.ancl-sidenav a:hover .icon-chevron-right {
+    opacity: .5;
+}
+
+@media (max-height: 650px) {
+    .ancl-sidenav {
+        position: relative;
+    }
+}
+
+
+/* Desktop large ------------------------- */
+@media (min-width: 1200px) {
+    .container-fluid {
+        margin-top: 15px;
+    }
+    .ancl-sidenav {
+        max-width: 240px;
+    }
+}
+
+/* Desktop ------------------------- */
+@media (max-width: 980px) {
+    /* When affixed, space properly */
+    .ancl-sidenav {
+        max-width: 160px;
+    }
+}
