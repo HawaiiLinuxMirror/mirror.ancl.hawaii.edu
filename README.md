@@ -14,5 +14,5 @@ Want to contribute? Great!
 5. Open a [Pull Request][1]
 6. Enjoy a refreshing Diet Coke and wait
 
-[1]: http://github.com/github/markup/pulls
+[1]: https://github.com/jyap808/mirror.ancl.hawaii.edu_website/pulls
 
